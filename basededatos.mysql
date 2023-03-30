@@ -1,0 +1,10 @@
+CREATE DATABASE if NOT EXISTS prueba
+
+USE pruba
+
+CREATE TABLE tarea(
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	nombre VARCHAR(150) NOT NULL,
+	asignatura VARCHAR(150) NOT NULL,
+	fecha_entrega TIMESTAMP
+	PRIMARY KEY(id))
