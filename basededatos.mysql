@@ -7,4 +7,6 @@ CREATE TABLE tarea(
 	nombre VARCHAR(150) NOT NULL,
 	asignatura VARCHAR(150) NOT NULL,
 	fecha_entrega TIMESTAMP
-	PRIMARY KEY(id))
+	PRIMARY KEY(id));
+
+DESCRIBE tarea;
