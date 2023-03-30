@@ -1,5 +1,6 @@
 '''
 Hangman Game
+By David Vieyra
 -------------------------------------------------------------
 '''
 
@@ -118,8 +119,8 @@ def play_hangman():
    os.system('cls' if os.name == 'nt' else 'clear')
 
    words_to_guess = [
-       'january', 'border', 'image', 'film', 'promise', 'kids',
-       'lungs', 'doll', 'rhyme', 'damage', 'plants', 'hello', 'world'
+       'january', 'border', 'image', 'film', 'promise', 'kids', 'lions', 'tiger',
+       'lungs', 'doll', 'rhyme', 'damage', 'plants', 'hello', 'world', 'bebo'
    ]
    play = True
    while play:
